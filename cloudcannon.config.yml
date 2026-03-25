@@ -4,6 +4,13 @@ paths:
   static: public
   uploads: public/images
 
+markdown:
+  engine: commonmark
+  options:
+    table: true
+    gfm: true
+    code_block_fences: '```'
+
 commit_templates:
   - label: Default message
     template_string: '[default_commit_message]'
